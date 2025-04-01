@@ -74,7 +74,7 @@ function Technologies() {
                 Technologies
             </motion.h2>
             <motion.div
-                className="grid grid-cols-3 md:grid-cols-7 lg:gap-26 gap-12 justify-items-center"
+                className="grid grid-cols-7 lg:gap-26 gap-12 justify-items-center"
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1.5 }}
@@ -87,7 +87,7 @@ function Technologies() {
                         variants={iconVariants(duration)}
                     >
                         <Icon
-                            className="xl:text-8xl lg:text-7xl text-6xl"
+                            className="xl:text-8xl lg:text-7xl md:text-6xl text-5xl"
                             style={{ color }}
                         />
                     </motion.div>

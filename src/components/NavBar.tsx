@@ -27,7 +27,7 @@ function NavBar() {
                         target="_blank"
                         aria-label="Linkedin"
                     >
-                        <FaLinkedin size={32} />
+                        <FaLinkedin className="sm:text-3xl text-2xl" />
                     </a>
                 </div>
                 <div className="sm:m-8 m-3 flex items-center justify-center gap-4 text-2xl">
@@ -36,7 +36,7 @@ function NavBar() {
                         target="_blank"
                         aria-label="GitHub"
                     >
-                        <FaGithub size={32} />
+                        <FaGithub className="sm:text-3xl text-2xl" />
                     </a>
                 </div>
                 <div className="sm:m-8 m-3 flex items-center justify-center gap-4 text-2xl">
@@ -45,7 +45,7 @@ function NavBar() {
                         target="_blank"
                         aria-label="Facebook"
                     >
-                        <FaFacebook size={32} />
+                        <FaFacebook className="sm:text-3xl text-2xl" />
                     </a>
                 </div>
                 <div className="sm:m-8 m-3 flex items-center justify-center gap-4 text-2xl">
@@ -54,7 +54,7 @@ function NavBar() {
                         target="_blank"
                         aria-label="Instagram"
                     >
-                        <FaInstagram size={32} />
+                        <FaInstagram className="sm:text-3xl text-2xl" />
                     </a>
                 </div>
             </div>

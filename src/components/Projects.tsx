@@ -2,6 +2,7 @@ import { PROJECTS } from '../constants';
 // import MyButton1 from './MyButton1';
 // import MyButton2 from './MyButton2';
 import { motion } from 'framer-motion';
+import MyButton3 from './MyButton3';
 
 function Projects() {
     return (
@@ -43,8 +44,11 @@ function Projects() {
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 1 }}
                         >
-                            <h3 className="mb-3 text-2xl font-semibold text-white text-center lg:text-left">
+                            <h3 className="mb-3 text-2xl font-semibold text-white text-center lg:text-left flex justify-center items-center lg:justify-start">
                                 {project.title}
+                                {project.urls?.deploy && (
+                                    <MyButton3 url={project.urls?.deploy} />
+                                )}
                             </h3>
 
                             <p className="mb-4 text-stone-400 leading-relaxed text-center lg:text-left">
