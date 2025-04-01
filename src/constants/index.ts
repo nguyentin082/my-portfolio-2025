@@ -2,7 +2,7 @@ import project1 from '../assets/projects/messiVSronaldoThumnail.png';
 import project2 from '../assets/projects/NewsCategoryClassifyThumnail.png';
 import project3 from '../assets/projects/massivemimo.jpg';
 import project4 from '../assets/projects/vietnamhousethumnail.jpg';
-
+import { Project } from './index.d';
 export const HERO_CONTENT = `Data Scientist & Machine Learning Engineer driven by data-driven impact, eager to tackle complexchallenges and develop scalable AI solutions. Proficient in predictive modeling, statistical analysis, anddeploying machine learning models to production. Skilled in leveraging advanced algorithms and cutting-edge tools to optimize decision-making and business outcomes.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
@@ -17,7 +17,7 @@ export const EXPERIENCES = [
     },
 ];
 
-export const PROJECTS = [
+export const PROJECTS: Project[] = [
     {
         title: 'Ronaldo VS Messi Image Classification',
         image: project1,
@@ -90,7 +90,7 @@ export const PROJECTS = [
         image: project4,
         description: 'Pending...',
         technologies: ['Pending...'],
-        urls: [],
+        urls: {},
     },
 ];
 

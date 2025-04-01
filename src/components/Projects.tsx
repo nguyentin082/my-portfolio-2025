@@ -16,7 +16,7 @@ function Projects() {
                 Projects
             </motion.h2>
             <div className="flex flex-col gap-12">
-                {PROJECTS.map((project, index) => (
+                {PROJECTS.map((project, index: number) => (
                     <div
                         key={index}
                         className="flex flex-col lg:flex-row lg:items-center  p-6 rounded-xl shadow-lg"

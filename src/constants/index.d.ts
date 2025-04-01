@@ -7,7 +7,7 @@ export const EXPERIENCES: {
     description: string;
     technologies: string[];
 }[];
-export const PROJECTS: {
+export interface Project {
     title: string;
     image: string;
     description: string;
@@ -21,7 +21,9 @@ export const PROJECTS: {
         repo1?: string;
         repo2?: string;
     };
-}[];
+}
+declare const PROJECTS: Project[];
+
 export const CONTACT: {
     address: string;
     phoneNo: string;
