@@ -57,7 +57,7 @@ const iconVariants = (duration: number) => ({
             duration,
             ease: 'linear',
             repeat: Infinity,
-            repeatType: 'reverse',
+            repeatType: 'reverse' as 'reverse' | 'loop' | 'mirror',
         },
     },
 });
