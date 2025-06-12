@@ -1,21 +1,17 @@
 import { motion } from 'framer-motion';
 import {
     FaPython,
-    FaHtml5,
-    FaCss3Alt,
-    FaJs,
     FaReact,
     FaNodeJs,
     FaDocker,
-    FaFigma,
     FaGitAlt,
+    FaAws,
 } from 'react-icons/fa6';
 import {
     SiTypescript,
     SiPostgresql,
     SiMysql,
     SiScikitlearn,
-    SiScipy,
     SiNumpy,
     SiPandas,
     SiTensorflow,
@@ -23,30 +19,35 @@ import {
     SiFlask,
     SiNginx,
     SiFastapi,
+    SiLangchain,
+    SiNextdotjs,
+    SiNestjs,
+    SiMongodb,
 } from 'react-icons/si';
 
 const icons = [
     { component: FaPython, color: '#3776AB', duration: 2.5 },
     { component: SiNumpy, color: '#3184a0', duration: 3 },
-    { component: SiScipy, color: '#8CAAE6', duration: 2 },
     { component: SiPandas, color: '#6248c8', duration: 2.8 },
     { component: SiScikitlearn, color: '#F7931E', duration: 2.6 },
     { component: SiTensorflow, color: '#FF6F00', duration: 3.2 },
     { component: SiPytorch, color: '#EE4C2C', duration: 2.5 },
+    { component: SiLangchain, color: '#34687C', duration: 2.7 },
     { component: SiPostgresql, color: '#336791', duration: 2.8 },
     { component: SiMysql, color: '#4479A1', duration: 3 },
-    { component: SiFlask, color: '#ffffff', duration: 2.6 },
-    { component: SiFastapi, color: '#009688', duration: 2.4 },
-    { component: FaDocker, color: '#2496ED', duration: 2.9 },
-    { component: SiNginx, color: '#009639', duration: 2.7 },
-    { component: FaGitAlt, color: '#F05032', duration: 3.1 },
+    { component: SiMongodb, color: '#47A248', duration: 2.8 },
     { component: FaReact, color: '#61DAFB', duration: 2.6 },
+    { component: SiNextdotjs, color: '#EEEEEE', duration: 2.9 },
     { component: FaNodeJs, color: '#339933', duration: 2.8 },
-    { component: FaHtml5, color: '#E34F26', duration: 2.7 },
-    { component: FaCss3Alt, color: '#1572B6', duration: 3 },
-    { component: FaJs, color: '#F7DF1E', duration: 3.2 },
+    { component: SiNestjs, color: '#E0234E', duration: 2.5 },
+    { component: SiFlask, color: '#EEEEEE', duration: 2.6 },
+    { component: SiFastapi, color: '#009688', duration: 2.4 },
     { component: SiTypescript, color: '#3178C6', duration: 2.6 },
-    { component: FaFigma, color: '#F24E1E', duration: 3.3 },
+
+    { component: FaGitAlt, color: '#F05032', duration: 3.1 },
+    { component: SiNginx, color: '#009639', duration: 2.7 },
+    { component: FaDocker, color: '#2496ED', duration: 2.9 },
+    { component: FaAws, color: '#FF9900', duration: 3.1 },
 ];
 
 const iconVariants = (duration: number) => ({

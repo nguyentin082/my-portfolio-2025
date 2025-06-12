@@ -1,11 +1,9 @@
 import project1 from '../assets/projects/messiVSronaldoThumnail.png';
 import project2 from '../assets/projects/NewsCategoryClassifyThumnail.png';
 import project3 from '../assets/projects/massivemimo.jpg';
-import project4 from '../assets/projects/vietnamhousethumnail.jpg';
+import project4 from '../assets/projects/AIsolution.png';
 import { Project } from './index.d';
-export const HERO_CONTENT = `Data Scientist & Machine Learning Engineer driven by data-driven impact, eager to tackle complexchallenges and develop scalable AI solutions. Proficient in predictive modeling, statistical analysis, anddeploying machine learning models to production. Skilled in leveraging advanced algorithms and cutting-edge tools to optimize decision-making and business outcomes.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `Artificial Intelligence Software Engineer with a solid foundation in machine learning and deep learning, focusing on building practical AI applications. Experienced in turning data into intelligent solutions. Passionate about applying AI to solve real-world challenges in a scalable and efficient way.`;
 
 export const EXPERIENCES = [
     {
@@ -15,9 +13,33 @@ export const EXPERIENCES = [
         description: `Developed and maintained front-end applications using Angular.js and Flutter. Collaborated with the backend team to integrate APIs, ensuring seamless data flow. Optimized UI/UX for better user experience and performance.`,
         technologies: ['Flutter', 'Angular.js'],
     },
+    {
+        year: 'April 2025 - NOW',
+        role: 'Artificial Intelligence Software Engineer',
+        company: 'Jumpstart Disruptive Innovations Pte. Ltd. (TechJDI)',
+        description: `Developed a comprehensive AI system for B2B clients, serving as both AI Engineer and Backend Developer. This involved extensive API integration, leveraging Natural Language Processing (NLP) for intelligent interactions and Computer Vision for advanced functionalities.`,
+        technologies: ['PandasAI', 'LangChain', 'NestJS', 'MongoDB', 'AWS S3'],
+    },
 ];
 
 export const PROJECTS: Project[] = [
+    {
+        title: 'Artificial Intelligence Solution',
+        image: project4,
+        description:
+            'AI system for B2B with integrated solutions: data analysis assistant, face recognition, retirement planning, and real estate advisor. Includes full-stack frontend/backend, admin UI, and supports user interactions via Email, Telegram, and web.',
+        technologies: [
+            'LangChain',
+            'InsightFace',
+            'PandasAI',
+            'NextJS',
+            'NestJS',
+            'MongoDB',
+            'AWS S3',
+            'Milvus',
+        ],
+        urls: {},
+    },
     {
         title: 'Ronaldo VS Messi Image Classification',
         image: project1,
@@ -84,13 +106,6 @@ export const PROJECTS: Project[] = [
                 'https://ieeexplore.ieee.org/document/9593213',
             ],
         },
-    },
-    {
-        title: 'Vietnam Housing Price Prediction',
-        image: project4,
-        description: 'Pending...',
-        technologies: ['Pending...'],
-        urls: {},
     },
 ];
 

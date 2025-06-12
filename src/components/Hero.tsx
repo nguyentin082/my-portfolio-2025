@@ -57,7 +57,7 @@ function Hero() {
                             className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
                             variants={childVariants}
                         >
-                            Data Scientist / Machine Learning Engineer
+                            Artificial Intelligence Software Engineer
                         </motion.span>
                         <motion.p
                             className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
@@ -66,7 +66,7 @@ function Hero() {
                             {HERO_CONTENT}
                         </motion.p>
                         <motion.a
-                            href="/DSMLE.pdf"
+                            href="/AISE.pdf"
                             target="_blank"
                             download
                             className="bg-white rounded-full p-4 text-md font-bold text-stone-800 mb-10"
