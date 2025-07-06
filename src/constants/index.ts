@@ -7,18 +7,18 @@ export const HERO_CONTENT = `Artificial Intelligence Software Engineer with a so
 
 export const EXPERIENCES = [
     {
-        year: 'Aug 2023 - Nov 2023',
-        role: 'Intern Software Engineer (Front-end)',
-        company: 'VNPT Ho Chi Minh City (IT Center)',
-        description: `Developed and maintained front-end applications using Angular.js and Flutter. Collaborated with the backend team to integrate APIs, ensuring seamless data flow. Optimized UI/UX for better user experience and performance.`,
-        technologies: ['Flutter', 'Angular.js'],
-    },
-    {
         year: 'April 2025 - NOW',
         role: 'Artificial Intelligence Software Engineer',
         company: 'Jumpstart Disruptive Innovations Pte. Ltd. (TechJDI)',
         description: `Developed a comprehensive AI system for B2B clients, serving as both AI Engineer and Backend Developer. This involved extensive API integration, leveraging Natural Language Processing (NLP) for intelligent interactions and Computer Vision for advanced functionalities.`,
         technologies: ['PandasAI', 'LangChain', 'NestJS', 'MongoDB', 'AWS S3'],
+    },
+    {
+        year: 'Aug 2023 - Nov 2023',
+        role: 'Intern Software Engineer (Front-end)',
+        company: 'VNPT Ho Chi Minh City (IT Center)',
+        description: `Developed and maintained front-end applications using Angular.js and Flutter. Collaborated with the backend team to integrate APIs, ensuring seamless data flow. Optimized UI/UX for better user experience and performance.`,
+        technologies: ['Flutter', 'Angular.js'],
     },
 ];
 
