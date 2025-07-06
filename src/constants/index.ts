@@ -7,7 +7,7 @@ export const HERO_CONTENT = `Artificial Intelligence Software Engineer with a so
 
 export const EXPERIENCES = [
     {
-        year: 'April 2025 - NOW',
+        year: 'April 2025 - June 2025',
         role: 'Artificial Intelligence Software Engineer',
         company: 'Jumpstart Disruptive Innovations Pte. Ltd. (TechJDI)',
         description: `Developed a comprehensive AI system for B2B clients, serving as both AI Engineer and Backend Developer. This involved extensive API integration, leveraging Natural Language Processing (NLP) for intelligent interactions and Computer Vision for advanced functionalities.`,
